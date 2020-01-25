@@ -2,7 +2,7 @@ const expect = require('expect');
 const deepFreeze = require('../index');
 
 describe('Deep Freeze', () => {
-  let testObj = {
+  const testObj = {
     name: 'Denis',
     address: {
       str: 'Vladimirskaya',
