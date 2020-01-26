@@ -12,7 +12,7 @@ module.exports = function deepClone(object) {
 
 /**
  * clones an object deeply using recursion.
- * src/Tasks/Recursion/Deep Clone/index.js
+ * src/Tasks/Recursion/Deep Clone/deepClone.test.js
  *
  * @param object - cloning object
  */

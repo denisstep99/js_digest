@@ -1,53 +1,29 @@
 const expect = require('expect');
-const deepClone = require('./deepClone');
 
-describe('Deep clone using JSON', () => {
-  const testObj = {
-    name: 'Denis',
-    address: {
-      str: 'Vladimirskaya',
-      building: 12,
-      apartments: 90
-    },
-    arr: [
-      {name: 'Victor'},
-      {
-        name: 'Vladimir',
-        arr: [{name: 'Vlad'}]
-      }
-    ]
-  };
+/**
+ * Shallow Clone
+ * To make deep copy use deepClone function from ./deepClone
+ */
 
-  const copy = deepClone(testObj);
+describe('Cloning objects', () => {
+  it('Cloning using spread operator', () => {
+    const originalObject = {name: 'Jack', age: 18};
+    const copy = {...originalObject};
 
-  it('Specific cases', () => {
-    expect(deepClone({})).toEqual({});
-    expect(deepClone([])).toEqual([]);
-    expect(deepClone({name: []})).toEqual({name: []});
-    expect(deepClone([{},{},{}])).toEqual([{},{},{}]);
+    copy.name = 'Fillip';
+    copy.age = 90;
 
-    // JSON.stringify doesn't support methods
-    expect(deepClone({printNumber() {return 20}}).printNumber).toBeUndefined();
+    expect(originalObject).toEqual({name: 'Jack', age: 18});
   });
 
-  it('Properties should be the same', () => {
-    expect(testObj.name).toBe(copy.name);
-    expect(testObj.address.building).toBe(copy.address.building);
-    expect(testObj.arr[1].name).toBe(copy.arr[1].name);
-    expect(testObj.arr[1].arr[0].name).toBe(copy.arr[1].arr[0].name);
-  });
 
-  it('Properties should not be linked', () => {
-    copy.name = 'Vlad';
-    expect(testObj.name).toBe('Denis');
+  it('Cloning using Object.assign()', () => {
+    const originalObject = {name: 'Jack', age: 18};
+    const copy = Object.assign({}, originalObject);
 
-    copy.address.building = 20;
-    expect(testObj.address.building).toBe(12);
+    copy.name = 'Fillip';
+    copy.age = 90;
 
-    copy.arr[1].name = 'Denis';
-    expect(testObj.arr[1].name).toBe('Vladimir');
-
-    copy.arr[1].arr[0].name = 'Denis';
-    expect(testObj.arr[1].arr[0].name).toBe('Vlad');
+    expect(originalObject).toEqual({name: 'Jack', age: 18});
   });
 });
