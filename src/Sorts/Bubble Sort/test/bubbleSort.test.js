@@ -1,8 +1,7 @@
-const sort = require('../index');
 const expect = require('expect');
+const sort = require('../index');
 
-
-describe('Merge sort', () => {
+describe('Bubble sort', () => {
   it('Common tests', () => {
     expect(sort([])).toEqual([]);
     expect(sort([1,2,3])).toEqual([1,2,3]);
