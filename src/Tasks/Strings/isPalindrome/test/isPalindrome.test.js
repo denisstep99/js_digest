@@ -1,7 +1,7 @@
 const expect = require('expect');
 const isPalindrome = require('../index');
 
-describe('Is Palindrome recursive algorithm', () => {
+describe('Is Palindrome', () => {
   it('Common test', () => {
     expect(isPalindrome('')).toBe(true);
     expect(isPalindrome('aba')).toBe(true);
