@@ -8,7 +8,8 @@
 * [Числа Фибоначчи](https://github.com/denisstep99/js_digest/blob/master/src/Tasks/Recursion/Fibonacci/index.js)
 * [Глубокое клонирование обьекта](https://github.com/denisstep99/js_digest/blob/master/src/Tasks/Recursion/Deep%20Clone/index.js)
 * [Глубокая заморозка обьекта](https://github.com/denisstep99/js_digest/blob/master/src/Tasks/Recursion/Deep%20Freeze/index.js)
-
+* [Подсчет количества инверсий в массиве](https://github.com/denisstep99/js_digest/blob/master/src/Tasks/Recursion/Count%20Reverses%20In%20The%20Array/index.js)
+* [Множество всех подмножеств](https://github.com/denisstep99/js_digest/blob/master/src/Tasks/Recursion/Power%20Set/index.js)
 
 #### Алгоритмы поиска 
 * [Двоичный поиск](https://github.com/denisstep99/js_digest/blob/master/src/Searches/Binary%20Search/index.js)

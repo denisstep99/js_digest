@@ -15,7 +15,7 @@ function sort(data, compareFunction) {
     secondIndex = 0;
 
   while (firstIndex < firstPart.length && secondIndex < secondPart.length) {
-    if (comparator.lessThan(firstPart[firstIndex], secondPart[secondIndex])) {
+    if (comparator.lessThanOrEqual(firstPart[firstIndex], secondPart[secondIndex])) {
       resultArray.push(firstPart[firstIndex++]);
     } else {
       resultArray.push(secondPart[secondIndex++]);
