@@ -27,6 +27,8 @@
 * [Проверка на палиндром](https://github.com/denisstep99/js_digest/blob/master/src/Tasks/Strings/isPalindrome/index.js)
 
 #### Прочее
+* [Задача о рюкзаке](https://github.com/denisstep99/js_digest/tree/master/src/Tasks/Dynamic%20Programming/Knapsack%20Problem)
+* [Задача о рюкзаке (неограниченные предметы)](https://github.com/denisstep99/js_digest/blob/master/src/Tasks/Dynamic%20Programming/Knapsack%20Unlimited%20Problem/index.js)
 * [Заполнение массива от 0 до N](https://github.com/denisstep99/js_digest/blob/master/src/Small%20Tips/Arrays/Filling/index.js#L47-L63)
 * [Функция range](https://github.com/denisstep99/js_digest/blob/master/src/Small%20Tips/Arrays/Filling/range.js)
 * [Проверка равенства -0 и +0](https://github.com/denisstep99/js_digest/blob/master/src/Small%20Tips/Objects/Checks/index.js#L9)
