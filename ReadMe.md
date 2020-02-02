@@ -19,7 +19,9 @@
 
 #### Алгоритмы сортировки 
 * [Пузырьковая сортировка](https://github.com/denisstep99/js_digest/blob/master/src/Sorts/Bubble%20Sort/index.js)
+* [Сортировка выбором](https://github.com/denisstep99/js_digest/tree/master/src/Sorts/Selection%20Sort)
 * [Сортировка слиянием](https://github.com/denisstep99/js_digest/tree/master/src/Sorts/Merge%20Sort)
+
 
 #### Алгоритмы на строках
 * [Расстояние Хэмминга](https://github.com/denisstep99/js_digest/tree/master/src/Tasks/Strings/Hamming%20Distance)

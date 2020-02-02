@@ -35,4 +35,4 @@ IF (IndexD < D::length):
 
 | Best | Average | Worst    | Memory   | Stable |
 |:----:|:-------:|:--------:|:--------:|:------:|
-| n    | log(n)  | n log(n) | n log(n) | n      |
+| n    | log(n)  | n log(n) | n log(n) | yes    |

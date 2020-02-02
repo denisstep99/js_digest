@@ -2,7 +2,7 @@ const sort = require('../index');
 const expect = require('expect');
 
 
-describe('Selection sort', () => {
+describe('Merge sort', () => {
   it('Common tests', () => {
     expect(sort([])).toEqual([]);
     expect(sort([1,2,3])).toEqual([1,2,3]);

@@ -9,7 +9,6 @@ describe('Fibonacci', () => {
     expect(fibonacci.v1(4)).toBe(3);
     expect(fibonacci.v1(10)).toBe(55);
     expect(fibonacci.v1(20)).toBe(6765);
-    expect(fibonacci.v1(32)).toBe(2178309);
   });
 
   it('Version 2', () => {
