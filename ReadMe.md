@@ -26,11 +26,14 @@
 * [Проверка правильной скобочной последовательности](https://github.com/denisstep99/js_digest/tree/master/src/Tasks/Strings/Valid%20Brackets)
 * [Проверка на палиндром](https://github.com/denisstep99/js_digest/blob/master/src/Tasks/Strings/isPalindrome/index.js)
 
-#### Прочее
+#### Задачи
 * [Задача о рюкзаке](https://github.com/denisstep99/js_digest/tree/master/src/Tasks/Dynamic%20Programming/Knapsack%20Problem)
 * [Задача о рюкзаке (неограниченные предметы)](https://github.com/denisstep99/js_digest/blob/master/src/Tasks/Dynamic%20Programming/Knapsack%20Unlimited%20Problem/index.js)
+* [Поиск элементов, которые в переданных массивах встречается только один раз](https://github.com/denisstep99/js_digest/blob/master/src/Small%20Tips/Arrays/Operations/Common%20Operations.js#L38)
+
+#### Прочее
 * [Заполнение массива от 0 до N](https://github.com/denisstep99/js_digest/blob/master/src/Small%20Tips/Arrays/Filling/index.js#L47-L63)
-* [Функция range](https://github.com/denisstep99/js_digest/blob/master/src/Small%20Tips/Arrays/Filling/range.js)
+* [Функция Range](https://github.com/denisstep99/js_digest/blob/master/src/Small%20Tips/Arrays/Filling/range.js)
 * [Проверка равенства -0 и +0](https://github.com/denisstep99/js_digest/blob/master/src/Small%20Tips/Objects/Checks/index.js#L9)
 
 
