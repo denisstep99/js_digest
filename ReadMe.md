@@ -29,6 +29,7 @@
 #### Задачи
 * [Задача о рюкзаке](https://github.com/denisstep99/js_digest/tree/master/src/Tasks/Dynamic%20Programming/Knapsack%20Problem)
 * [Задача о рюкзаке (неограниченные предметы)](https://github.com/denisstep99/js_digest/blob/master/src/Tasks/Dynamic%20Programming/Knapsack%20Unlimited%20Problem/index.js)
+* [Задача о трех колбэках](https://github.com/denisstep99/js_digest/tree/master/src/Tasks/Asynchronous/Three%20Callbacks%20Problem)
 * [Поиск элементов, которые в переданных массивах встречается только один раз](https://github.com/denisstep99/js_digest/blob/master/src/Small%20Tips/Arrays/Operations/Common%20Operations.js#L38)
 
 #### Прочее
