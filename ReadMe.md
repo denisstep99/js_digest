@@ -16,12 +16,10 @@
 * [Линейный поиск](https://github.com/denisstep99/js_digest/blob/master/src/Searches/Linear%20Search/index.js)
 * [Интерполяционный поиск](https://github.com/denisstep99/js_digest/tree/master/src/Searches/Interpolation%20Search)
 
-
 #### Алгоритмы сортировки 
 * [Пузырьковая сортировка](https://github.com/denisstep99/js_digest/blob/master/src/Sorts/Bubble%20Sort/index.js)
 * [Сортировка выбором](https://github.com/denisstep99/js_digest/tree/master/src/Sorts/Selection%20Sort)
 * [Сортировка слиянием](https://github.com/denisstep99/js_digest/tree/master/src/Sorts/Merge%20Sort)
-
 
 #### Алгоритмы на строках
 * [Расстояние Хэмминга](https://github.com/denisstep99/js_digest/tree/master/src/Tasks/Strings/Hamming%20Distance)
@@ -31,6 +29,7 @@
 #### Задачи
 * [Задача о рюкзаке](https://github.com/denisstep99/js_digest/tree/master/src/Tasks/Dynamic%20Programming/Knapsack%20Problem)
 * [Задача о рюкзаке (неограниченные предметы)](https://github.com/denisstep99/js_digest/blob/master/src/Tasks/Dynamic%20Programming/Knapsack%20Unlimited%20Problem/index.js)
+* [Задача о покраске плиток](https://github.com/denisstep99/js_digest/blob/master/src/Tasks/Dynamic%20Programming/Paint%20Tiles)
 * [Задача о трех колбэках](https://github.com/denisstep99/js_digest/tree/master/src/Tasks/Asynchronous/Three%20Callbacks%20Problem)
 * [Поиск элементов, которые в переданных массивах встречается только один раз](https://github.com/denisstep99/js_digest/blob/master/src/Small%20Tips/Arrays/Operations/Common%20Operations.js#L38)
 
