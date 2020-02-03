@@ -31,6 +31,7 @@
 * [Задача о рюкзаке (неограниченные предметы)](https://github.com/denisstep99/js_digest/blob/master/src/Tasks/Dynamic%20Programming/Knapsack%20Unlimited%20Problem/index.js)
 * [Задача о покраске плиток](https://github.com/denisstep99/js_digest/blob/master/src/Tasks/Dynamic%20Programming/Paint%20Tiles)
 * [Задача о трех колбэках](https://github.com/denisstep99/js_digest/tree/master/src/Tasks/Asynchronous/Three%20Callbacks%20Problem)
+* [Задача о последовательности нулей и единиц](https://github.com/denisstep99/js_digest/blob/master/src/Tasks/Dynamic%20Programming/Sequence%20of%20ones%20and%20zeros)
 * [Поиск элементов, которые в переданных массивах встречается только один раз](https://github.com/denisstep99/js_digest/blob/master/src/Small%20Tips/Arrays/Operations/Common%20Operations.js#L38)
 
 #### Прочее
