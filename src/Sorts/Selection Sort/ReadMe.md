@@ -16,4 +16,4 @@
 
 | Best | Average | Worst    | Memory   | Stable |
 |:----:|:-------:|:--------:|:--------:|:------:|
-| n<sup>2</sup>    | n<sup>2</sup>  | n<sup>2</sup> | n | no   |
+| n<sup>2</sup>    | n<sup>2</sup>  | n<sup>2</sup> | 1 | no   |

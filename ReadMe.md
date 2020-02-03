@@ -1,5 +1,5 @@
 #### Рекурсивные алгоритмы
-* [Проверка на палиндром](https://github.com/denisstep99/js_digest/blob/master/src/Tasks/Recursion/isPalindrome/index.js)
+* [Проверка на палиндром](https://github.com/denisstep99/js_digest/blob/master/src/Tasks/Recursion/IsPalindrome/index.js)
 * [Факториал числа](https://github.com/denisstep99/js_digest/blob/master/src/Tasks/Recursion/Factorial/index.js)
 * [Расстояние Хэмминга](https://github.com/denisstep99/js_digest/blob/master/src/Tasks/Recursion/Hamming%20Distance/index.js)
 * [Перестановки с повторениями](https://github.com/denisstep99/js_digest/blob/master/src/Tasks/Recursion/Permutations/index.js)
@@ -20,6 +20,7 @@
 * [Пузырьковая сортировка](https://github.com/denisstep99/js_digest/blob/master/src/Sorts/Bubble%20Sort/index.js)
 * [Сортировка выбором](https://github.com/denisstep99/js_digest/tree/master/src/Sorts/Selection%20Sort)
 * [Сортировка слиянием](https://github.com/denisstep99/js_digest/tree/master/src/Sorts/Merge%20Sort)
+* [Сортировка вставками](https://github.com/denisstep99/js_digest/tree/master/src/Sorts/Insertion%20Sort)
 
 #### Алгоритмы на строках
 * [Расстояние Хэмминга](https://github.com/denisstep99/js_digest/tree/master/src/Tasks/Strings/Hamming%20Distance)
@@ -32,6 +33,7 @@
 * [Задача о покраске плиток](https://github.com/denisstep99/js_digest/blob/master/src/Tasks/Dynamic%20Programming/Paint%20Tiles)
 * [Задача о трех колбэках](https://github.com/denisstep99/js_digest/tree/master/src/Tasks/Asynchronous/Three%20Callbacks%20Problem)
 * [Задача о последовательности нулей и единиц](https://github.com/denisstep99/js_digest/blob/master/src/Tasks/Dynamic%20Programming/Sequence%20of%20ones%20and%20zeros)
+* [Задача о последовательности без трех единиц]()
 * [Поиск элементов, которые в переданных массивах встречается только один раз](https://github.com/denisstep99/js_digest/blob/master/src/Small%20Tips/Arrays/Operations/Common%20Operations.js#L38)
 
 #### Прочее
