@@ -41,4 +41,8 @@
 * [Функция Range](https://github.com/denisstep99/js_digest/blob/master/src/Small%20Tips/Arrays/Filling/range.js)
 * [Проверка равенства -0 и +0](https://github.com/denisstep99/js_digest/blob/master/src/Small%20Tips/Objects/Checks/index.js#L9)
 
+#### Паттерны
+
+###### Пораждающие
+* [Одиночка](https://github.com/denisstep99/js_digest/blob/master/src/Patterns/Singleton/index.js)
 
