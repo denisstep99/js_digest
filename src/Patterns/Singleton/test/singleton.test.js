@@ -21,7 +21,7 @@ describe('Singleton pattern', () => {
 
   it('Creation with the `getInstance` method.', () => {
     //only for test
-    delete Singleton._instance;
+    delete Singleton._clearInstance();
 
     expect(() => Singleton.getInstance()).toThrow();
 
