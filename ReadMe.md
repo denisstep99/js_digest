@@ -48,3 +48,4 @@
 
 ###### Асинхранного выполнения
 * [Итератор](https://github.com/denisstep99/js_digest/blob/master/src/Patterns/Asynchronous/Iterator/index.js)
+* [Параллельное выполнение]()

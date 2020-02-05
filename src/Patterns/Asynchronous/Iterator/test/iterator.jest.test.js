@@ -38,6 +38,7 @@ describe('Callback pattern `Iterator`', () => {
   const f6 = funcFactory(() => {
     testArr.push(6)
   }, 0);
+  const mocked = jest.fn(funcFactory(() => {}));
   const err = (callback) => {
     setTimeout(() => {
       callback(new Error('Error!'));
@@ -56,16 +57,19 @@ describe('Callback pattern `Iterator`', () => {
   });
 
   it('Should run in turn', (done) => {
-    new TaskIterator([f1, f2, f3, f4, f5, f6], function (err) {
+    new TaskIterator([f1, f2, f3, f4, f5, f6, mocked], function (err) {
       expect(testArr).toEqual([1, 2, 3, 4, 5, 6]);
+      expect(mocked).toBeCalled();
+      mocked.mockClear();
       testArr.length = 0;
       done();
     }).start();
   });
 
   it('Should stop running if an error', (done) => {
-    new TaskIterator([f1, f2, f3, f4, err, f6], function (err) {
+    new TaskIterator([f1, f2, f3, f4, err, mocked], function (err) {
       expect(err).toBeInstanceOf(Error);
+      expect(mocked).not.toBeCalled();
       expect(testArr).toEqual([1, 2, 3, 4]);
       testArr.length = 0;
       done();
@@ -74,12 +78,11 @@ describe('Callback pattern `Iterator`', () => {
 
   it('Should work asynchronous with synchronous functions', (done) => {
     new TaskIterator([s1, s2, s3], function (err) {
-      expect(testArr).toEqual([10, 1, 2, 3]);
+      expect(testArr).toEqual([1, 2, 3]);
       testArr.length = 0;
       done();
     }).start();
 
-    testArr.push(10);
-    expect(testArr).toEqual([10]);
+    expect(testArr).toEqual([]);
   });
 });
