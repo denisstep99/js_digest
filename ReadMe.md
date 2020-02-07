@@ -33,14 +33,14 @@
 * [Задача о покраске плиток](https://github.com/denisstep99/js_digest/blob/master/src/Tasks/Dynamic%20Programming/Paint%20Tiles)
 * [Задача о трех колбэках](https://github.com/denisstep99/js_digest/tree/master/src/Tasks/Asynchronous/Three%20Callbacks%20Problem)
 * [Задача о последовательности нулей и единиц](https://github.com/denisstep99/js_digest/blob/master/src/Tasks/Dynamic%20Programming/Sequence%20of%20ones%20and%20zeros)
-* [Задача о последовательности без трех единиц]()
+* [Задача о платной лестнице](https://github.com/denisstep99/js_digest/tree/master/src/Tasks/Dynamic%20Programming/Paid%20Stairs)
 * [Поиск элементов, которые в переданных массивах встречается только один раз](https://github.com/denisstep99/js_digest/blob/master/src/Small%20Tips/Arrays/Operations/Common%20Operations.js#L38)
 
 #### Прочее
 * [Заполнение массива от 0 до N](https://github.com/denisstep99/js_digest/blob/master/src/Small%20Tips/Arrays/Filling/index.js#L47-L63)
 * [Функция Range](https://github.com/denisstep99/js_digest/blob/master/src/Small%20Tips/Arrays/Filling/range.js)
 * [Проверка равенства -0 и +0](https://github.com/denisstep99/js_digest/blob/master/src/Small%20Tips/Objects/Checks/index.js#L9)
-* [Promisify]()
+* [Promisify](https://github.com/denisstep99/js_digest/blob/master/src/Small%20Tips/Functions/Promisify/promisify.js)
 
 #### Паттерны
 
