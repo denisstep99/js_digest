@@ -15,6 +15,7 @@
 * [Двоичный поиск](https://github.com/denisstep99/js_digest/blob/master/src/Searches/Binary%20Search/index.js)
 * [Линейный поиск](https://github.com/denisstep99/js_digest/blob/master/src/Searches/Linear%20Search/index.js)
 * [Интерполяционный поиск](https://github.com/denisstep99/js_digest/tree/master/src/Searches/Interpolation%20Search)
+* [Алгоритм Кнута-Морриса-Пратта](https://github.com/denisstep99/js_digest/blob/master/src/Searches/Knuth%20Morris%20Pratt/index.js)
 
 #### Алгоритмы сортировки 
 * [Пузырьковая сортировка](https://github.com/denisstep99/js_digest/blob/master/src/Sorts/Bubble%20Sort/index.js)
@@ -40,7 +41,7 @@
 * [Заполнение массива от 0 до N](https://github.com/denisstep99/js_digest/blob/master/src/Small%20Tips/Arrays/Filling/index.js#L47-L63)
 * [Функция Range](https://github.com/denisstep99/js_digest/blob/master/src/Small%20Tips/Arrays/Filling/range.js)
 * [Проверка равенства -0 и +0](https://github.com/denisstep99/js_digest/blob/master/src/Small%20Tips/Objects/Checks/index.js#L9)
-* [Promisify](https://github.com/denisstep99/js_digest/blob/master/src/Small%20Tips/Functions/Promisify/promisify.js)
+* [Promisify](https://github.com/denisstep99/js_digest/blob/master/src/Small%20Tips/Functions/Promisify/promisify.js:ew)
 
 #### Паттерны
 
