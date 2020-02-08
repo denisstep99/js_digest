@@ -36,6 +36,7 @@
 * [Задача о последовательности нулей и единиц](https://github.com/denisstep99/js_digest/blob/master/src/Tasks/Dynamic%20Programming/Sequence%20of%20ones%20and%20zeros)
 * [Задача о платной лестнице](https://github.com/denisstep99/js_digest/tree/master/src/Tasks/Dynamic%20Programming/Paid%20Stairs)
 * [Поиск элементов, которые в переданных массивах встречается только один раз](https://github.com/denisstep99/js_digest/blob/master/src/Small%20Tips/Arrays/Operations/Common%20Operations.js#L38)
+* [Задача "Самый дешевый путь"](https://github.com/denisstep99/js_digest/tree/master/src/Tasks/Dynamic%20Programming/Cheapest%20Way)
 
 #### Прочее
 * [Заполнение массива от 0 до N](https://github.com/denisstep99/js_digest/blob/master/src/Small%20Tips/Arrays/Filling/index.js#L47-L63)
