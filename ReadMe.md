@@ -46,10 +46,13 @@
 
 #### Паттерны
 
+###### Структурные
+* [Прокси](https://github.com/denisstep99/js_digest/blob/a11c0178f64a219283b5103c199489d10cba3119/src/Patterns/Proxy/index.js)
+
 ###### Пораждающие
 * [Одиночка](https://github.com/denisstep99/js_digest/blob/master/src/Patterns/Singleton/index.js)
 * [Фабрика](https://github.com/denisstep99/js_digest/blob/6a6346468e705dc2e6e693116794738be706d688/src/Patterns/Factory/index.js)
-* [Прокси]()
+* [Строитель]()
 
 ###### Асинхранного выполнения
 * [Итератор](https://github.com/denisstep99/js_digest/blob/master/src/Patterns/Asynchronous/Iterator/index.js)
