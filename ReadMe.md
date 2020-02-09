@@ -48,7 +48,8 @@
 
 ###### Пораждающие
 * [Одиночка](https://github.com/denisstep99/js_digest/blob/master/src/Patterns/Singleton/index.js)
-* [Фабрика]()
+* [Фабрика](https://github.com/denisstep99/js_digest/blob/6a6346468e705dc2e6e693116794738be706d688/src/Patterns/Factory/index.js)
+* [Прокси]()
 
 ###### Асинхранного выполнения
 * [Итератор](https://github.com/denisstep99/js_digest/blob/master/src/Patterns/Asynchronous/Iterator/index.js)
