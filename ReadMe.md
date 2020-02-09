@@ -52,7 +52,8 @@
 ###### Пораждающие
 * [Одиночка](https://github.com/denisstep99/js_digest/blob/master/src/Patterns/Singleton/index.js)
 * [Фабрика](https://github.com/denisstep99/js_digest/blob/6a6346468e705dc2e6e693116794738be706d688/src/Patterns/Factory/index.js)
-* [Строитель]()
+* [Строитель](https://github.com/denisstep99/js_digest/blob/1a63ca9f7df9e445b11dca99a04cb3e0e1aa952a/src/Patterns/Builder/index.js)
+* [Псевдомассив]()
 
 ###### Асинхранного выполнения
 * [Итератор](https://github.com/denisstep99/js_digest/blob/master/src/Patterns/Asynchronous/Iterator/index.js)
