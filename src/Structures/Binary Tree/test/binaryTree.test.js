@@ -2,8 +2,8 @@ const expect = require('expect');
 const BinaryTree = require('../index');
 const BinaryTreeNode = require('../BinaryTreeNode');
 
-describe('Binary Tree', () => {
-  const node = new BinaryTreeNode(10)
+function createTree() {
+  return new BinaryTree(new BinaryTreeNode(10)
     .setLeft(
       new BinaryTreeNode(12)
         .setLeft(new BinaryTreeNode(14))
@@ -13,9 +13,11 @@ describe('Binary Tree', () => {
       new BinaryTreeNode(112)
         .setLeft(new BinaryTreeNode(114))
         .setRight(new BinaryTreeNode(113))
-    );
+    ));
+}
 
-  const tree = new BinaryTree(node);
+describe('Binary Tree', () => {
+  const tree = createTree();
 
   it('GetNodeByPath should return the right value', () => {
     expect(tree.getNodeByPath('')).toBe(10);
@@ -32,20 +34,8 @@ describe('Binary Tree', () => {
     expect(() => tree.getNodeByPath('fdsfas')).toThrow();
   });
 
-  it('SetNodeByPath should set your node', () => {
-    const node = new BinaryTreeNode(10)
-      .setLeft(
-        new BinaryTreeNode(12)
-          .setLeft(new BinaryTreeNode(14))
-          .setRight(new BinaryTreeNode(13))
-      )
-      .setRight(
-        new BinaryTreeNode(112)
-          .setLeft(new BinaryTreeNode(114))
-          .setRight(new BinaryTreeNode(113))
-      );
-
-    const tree = new BinaryTree(node);
+  it('SetNodeByPath should set your value', () => {
+    const tree = createTree();
 
     tree.setNodeByPath('l', 6);
     tree.setNodeByPath('R', 19);
@@ -57,6 +47,19 @@ describe('Binary Tree', () => {
     expect(tree.getNodeByPath('L')).toBe(6);
     expect(tree.getNodeByPath('R')).toBe(19);
     expect(tree.getNodeByPath('RRR')).toBe(9000);
+    expect(tree.getNodeByPath('RRL')).toBeNull();
+    expect(tree.getNodeByPath('LLLL')).toBeNull();
+  });
+
+  it('SetNodeByPath should set your node', () => {
+    const tree = createTree();
+
+    tree.setNodeByPath('lR', new BinaryTreeNode(899));
+    tree.setNodeByPath('RRR', new BinaryTreeNode(299));
+    tree.setNodeByPath('LLLL', new BinaryTreeNode(899));
+
+    expect(tree.getNodeByPath('lR')).toBe(899);
+    expect(tree.getNodeByPath('RRR')).toBe(299);
     expect(tree.getNodeByPath('RRL')).toBeNull();
     expect(tree.getNodeByPath('LLLL')).toBeNull();
   });
