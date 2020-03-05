@@ -37,6 +37,10 @@
 * [Задача о платной лестнице](https://github.com/denisstep99/js_digest/tree/master/src/Tasks/Dynamic%20Programming/Paid%20Stairs)
 * [Поиск элементов, которые в переданных массивах встречается только один раз](https://github.com/denisstep99/js_digest/blob/master/src/Small%20Tips/Arrays/Operations/Common%20Operations.js#L38)
 * [Задача "Самый дешевый путь"](https://github.com/denisstep99/js_digest/tree/master/src/Tasks/Dynamic%20Programming/Cheapest%20Way)
+* [Задача о размене](https://github.com/denisstep99/js_digest/blob/master/src/Tasks/Dynamic%20Programming/ATM/index.js)
+
+#### Графовые алгоритмы
+* [Breadth-first search]()
 
 #### Прочее
 * [Заполнение массива от 0 до N](https://github.com/denisstep99/js_digest/blob/master/src/Small%20Tips/Arrays/Filling/index.js#L47-L63)
@@ -53,7 +57,7 @@
 * [Одиночка](https://github.com/denisstep99/js_digest/blob/master/src/Patterns/Singleton/index.js)
 * [Фабрика](https://github.com/denisstep99/js_digest/blob/6a6346468e705dc2e6e693116794738be706d688/src/Patterns/Factory/index.js)
 * [Строитель](https://github.com/denisstep99/js_digest/blob/1a63ca9f7df9e445b11dca99a04cb3e0e1aa952a/src/Patterns/Builder/index.js)
-* [Псевдомассив]()
+* [Псевдомассив](https://github.com/denisstep99/js_digest/blob/master/src/Patterns/Pseudo%20Array/index.js)
 
 ###### Асинхранного выполнения
 * [Итератор](https://github.com/denisstep99/js_digest/blob/master/src/Patterns/Asynchronous/Iterator/index.js)
