@@ -40,7 +40,9 @@
 * [Задача о размене](https://github.com/denisstep99/js_digest/blob/master/src/Tasks/Dynamic%20Programming/ATM/index.js)
 
 #### Графовые алгоритмы
-* [Breadth-first search]()
+* [Breadth-first search](https://github.com/denisstep99/js_digest/blob/master/src/Graphs/BFS/index.js)
+* [Depth First Search](https://github.com/denisstep99/js_digest/blob/master/src/Graphs/DFS/index.js)
+* [Layer Counting](https://github.com/denisstep99/js_digest/blob/master/src/Graphs/Layer%20counting/index.js)
 
 #### Прочее
 * [Заполнение массива от 0 до N](https://github.com/denisstep99/js_digest/blob/master/src/Small%20Tips/Arrays/Filling/index.js#L47-L63)
