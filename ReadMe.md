@@ -44,11 +44,24 @@
 * [Depth First Search](https://github.com/denisstep99/js_digest/blob/master/src/Graphs/DFS/index.js)
 * [Layer Counting](https://github.com/denisstep99/js_digest/blob/master/src/Graphs/Layer%20counting/index.js)
 
+
+* [Dijkstra's algorithm]()
+* [Алгоритм построения Эйлерова цикла]()
+* [Алгоритм Форда-Беллмана]()
+* [Алгоритм Флойда]()
+* [Алгоритм Джонсона]()
+* [Алгоритм A]()
+* [Алгоритм Борувки]()
+
+#### Графовые структуры
+* [Куча]()
+
 #### Прочее
 * [Заполнение массива от 0 до N](https://github.com/denisstep99/js_digest/blob/master/src/Small%20Tips/Arrays/Filling/index.js#L47-L63)
 * [Функция Range](https://github.com/denisstep99/js_digest/blob/master/src/Small%20Tips/Arrays/Filling/range.js)
 * [Проверка равенства -0 и +0](https://github.com/denisstep99/js_digest/blob/master/src/Small%20Tips/Objects/Checks/index.js#L9)
 * [Promisify](https://github.com/denisstep99/js_digest/blob/master/src/Small%20Tips/Functions/Promisify/promisify.js:ew)
+* [Код хэмминга]()
 
 #### Паттерны
 
