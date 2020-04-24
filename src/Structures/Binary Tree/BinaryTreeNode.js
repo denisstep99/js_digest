@@ -19,4 +19,4 @@ module.exports = class BinaryTreeNode {
     this.right = node;
     return this;
   }
-}
+};
