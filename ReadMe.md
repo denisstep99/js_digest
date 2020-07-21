@@ -29,6 +29,7 @@
 * [Проверка на палиндром](https://github.com/denisstep99/js_digest/blob/master/src/Tasks/Strings/isPalindrome/index.js)
 
 #### Задачи
+* [Функция сложения]()
 * [Задача о рюкзаке](https://github.com/denisstep99/js_digest/tree/master/src/Tasks/Dynamic%20Programming/Knapsack%20Problem)
 * [Задача о рюкзаке (неограниченные предметы)](https://github.com/denisstep99/js_digest/blob/master/src/Tasks/Dynamic%20Programming/Knapsack%20Unlimited%20Problem/index.js)
 * [Задача о покраске плиток](https://github.com/denisstep99/js_digest/blob/master/src/Tasks/Dynamic%20Programming/Paint%20Tiles)
